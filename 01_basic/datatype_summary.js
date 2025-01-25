@@ -27,3 +27,25 @@ let MyFunction = function(){
 }
 
 //Note* typeof of null would be object
+
+//******************************************
+
+// memory : Stack(primitive) and Heap(Non-primitive)
+
+
+let Myname = "lovepreet"
+let MyHusbandName = Myname
+
+MyHusbandName = "Nirmaan"
+console.log(Myname)
+console.log(MyHusbandName)
+
+let userOne = {
+    email:"gdg@google.com",
+    upi:"344443"
+}
+let userTwo =userOne
+
+userTwo.email= "shdhjc@gmailcom"
+console.log(userOne)
+console.log(userTwo)
